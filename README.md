@@ -58,3 +58,7 @@ This is an AI-assisted creative prototype. The images supplied as generated art 
 ## Production notes
 
 The exploration environment, visual effects and gallery photographs are replaceable without rebuilding the story system. For use in a real competition submission, validate each scientific image's caption against the original NASA page, replace low-resolution downloaded previews, review AI watermark handling, and test on actual phones/tablets. This is a playable Opportunity experience, not a completed Eagle/Ingenuity game.
+
+## Version 2 improvements
+
+See `CHANGELOG-v2.md` for the November 11 playtest fixes: manual prologue navigation, player name entry, non-black re-rendering, dialogue continuity and avatars, centered CTA controls, improved audio behavior, local NASA route-map lightbox, and personalized goodbye.
