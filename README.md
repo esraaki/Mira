@@ -1,52 +1,60 @@
-# MIRA Quest — Interactive Space Storytelling
+# MIRA QUEST — Opportunity Chapter
 
-A playable first-draft prototype for NASA Space Apps Cairo 2026, inspired by **Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars**.
+A fully playable browser-based cinematic visual-novel / historical discovery experience, built from the assets supplied by the project owner.
 
-## Quick start
+## Launch
+
+**Quick start:** Unzip the archive and double-click `index.html` in a modern browser. The game is built as plain HTML, CSS, and JavaScript, so no build process or dependencies are required. If your browser restricts locally loaded media, start a local HTTP server instead:
+
+With Python 3 installed:
 
 ```bash
-npm install
-npm run dev
+cd mira-quest-game
+python3 -m http.server 8080
 ```
 
-Open the local URL shown in your terminal.
+Then open http://localhost:8080. On a Mac, you can use Terminal and the same commands. No npm install, build, paid API, login, or internet connection is needed to play (Google Fonts optionally load online; local fallback fonts work offline).
 
-## Deploy to Vercel
+## Features and progress
 
-1. Upload the **contents of this ZIP** to the root of a new GitHub repository. (Do not upload the ZIP as a single file.)
-2. In Vercel, **Add New → Project → Import Git Repository**.
-3. Framework preset: **Vite**. Build command: `npm run build`. Output directory: `dist`.
-4. Deploy. No environment variables or backend are required.
+- Cinematic title screen using G01
+- Multi-beat, click-to-advance grand opening
+- One-point signal / mysterious transmission
+- Three glowing points, with Opportunity as the fully playable mission (other signal cards clearly show that their chapters are not implemented)
+- Interactive spacecraft-travel simulation, straight progress telemetry, and Mars appearing after 75% progress
+- Realistic Mars environmental scan and accurate location labels
+- Drag/swipe/keyboard/arrow navigation to discover Opportunity (a composite environment from the supplied G28 artwork)
+- First conversation, unknown-identity reveal, branching choices and shared storyline
+- Animated 90 vs 5,111-sol comparison
+- Actual NASA route map with selectable milestones
+- Actual Mars geology photograph, zoom and interactive observations
+- Persistent Mission Gallery with actual NASA photographs and image credits
+- Final mission timeline including historical ending, and return to signal selection
+- Audio controls, volume settings, reduced-motion option, touch support, optional fullscreen, local save state
 
-## What works
+## Important visual limitation
 
-- Cinematic introduction and Moon/Mars destination hub
-- Three complete, navigable story scripts (Apollo 11, Opportunity, Ingenuity)
-- Branching dialogue responses and mini-interactions
-- Mission completion, local progress, and final archive
-- Responsive layout and keyboard support
-- Original SVG spacecraft drawings; no external image dependency
+The original PIA22909 pano supplied in the ZIP is only a small web preview (699 × 302). To avoid giving the impression of a detailed 360° NASA photographic view, this version uses a draggable *cinematic composite* built from the supplied generated Mars scene. This is real pointer/touch-controlled horizontal panning, but it is **not** a fully spherical 360° image or physically accurate 3D navigation. A higher-resolution stitched NASA panorama can replace the scene when acquired; full exterior rover portrayal would still require a labeled reconstruction.
 
-## Known first-draft limitations
+## Structure
 
-- Spacecraft drawings are **stylized placeholders**, not accurate technical depictions. Replace them with verified NASA media before final submission.
-- Character dialogue is fictional; factual callouts should be checked against linked NASA sources before publication.
-- The audio toggle is a **placeholder**. No voice files or sound effects are included yet.
-- Interactions are educational abstractions, not physically accurate simulations.
-- Progress is stored in browser `localStorage`, so it is device/browser-specific.
+- `index.html` — app entry
+- `styles.css` — layouts, cinematic styling, responsive interfaces and animation
+- `src/game.js` — game scenes, interaction state, data and missions
+- `assets/art/title/` — title-screen artwork (G01, G03)
+- `assets/art/intro/` — starry cinematic opening (G04, G07)
+- `assets/art/signals/` — subtle signal background (G14)
+- `assets/art/selection/` — Opportunity selection portrait (G11)
+- `assets/art/travel/` — Mars approach and star-travel images (G15, G17, G18, G21)
+- `assets/art/opportunity/` — Opportunity rover and Mars composites (G24, G25, G28, G34)
+- `assets/photos/` — original downloaded mission imagery with simplified descriptive filenames
+- `assets/audio/` — audio supplied by the project owner
+- `CREDITS.md` — provenance, publication review notes
 
-## Suggested next steps
+## Event disclosure
 
-1. Replace vector placeholders with NASA-approved photos/mission imagery and add credits.
-2. Add recorded voices, subtitles/transcripts, and sound controls.
-3. Review scientific facts and story phrasing against primary NASA sources.
-4. Test all scenes with a child in the target age range and refine pacing.
+This is an AI-assisted creative prototype. The images supplied as generated art must be visibly labeled as synthetic for the event's reported rules. The application adds on-screen source/reconstruction notes for the relevant scenes. Verify organizer requirements and any individual audio licenses before public release.
 
-## NASA source starting points
+## Production notes
 
-- https://www.nasa.gov/mission/apollo-11/
-- https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/
-- https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-helicopter/
-- https://images.nasa.gov/
-
-This is an independent educational prototype, not an official NASA product.
+The exploration environment, visual effects and gallery photographs are replaceable without rebuilding the story system. For use in a real competition submission, validate each scientific image's caption against the original NASA page, replace low-resolution downloaded previews, review AI watermark handling, and test on actual phones/tablets. This is a playable Opportunity experience, not a completed Eagle/Ingenuity game.
