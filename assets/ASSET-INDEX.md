@@ -47,10 +47,10 @@ All source assets in this project were taken from the ZIP supplied by the projec
 - `audio/dialogue.mp3` — dialogue advance
 - `audio/save.mp3` — gallery photo reward
 
-## Replacements recommended before competition submission
+## Asset QA and deferred work
 
-1. Replace the low-resolution `panorama-legacy.webp` with full-resolution PIA22909; upgrade the horizontal explorer to a genuinely high-resolution panoramically projected scene, and clearly identify any exterior rover compositing.
-2. Replace the small `traverse-map.jpg`, `victoria.jpg`, `first-panorama.jpg` with full-resolution NASA original downloads.
-3. Check every photo's media processing, capture date, location and credit against its NASA/JPL original page.
-4. Confirm music/effects licenses and final AI visual disclosure/watermark requirements.
-5. Review fictional Opportunity dialogue for voice/performance quality before recording.
+- This polish pass did not replace, generate over, or remove any supplied photograph. The NASA images remain in their intended scenes; the archive and `CREDITS.md` identify the verified image records and visible processing.
+- Some supplied mission images are intentionally small web-ready versions. A higher-resolution source can be considered later only if it preserves the same NASA record and scene identity; no such swap is included in this release.
+- The route panorama/rover scene remains a cinematic composite rather than a spherical, documentary Mars environment. Generated/AI-assisted scene art is disclosed in-game and in `CREDITS.md`.
+- One supplied laser-reflector photograph remains without a confirmed flight-frame citation. Its original pixels are preserved and the in-game lightbox marks the attribution as unresolved.
+- Verify source media licenses for supplied music, sound effects, and simulation video, plus the competition’s final disclosure/branding requirements, before public release.

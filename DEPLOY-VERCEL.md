@@ -1,19 +1,21 @@
-# Deploying MIRA Quest to Vercel
+# Deploying MIRA Quest
 
-This project is a static HTML/CSS/JavaScript website. **There is no Vite, npm install, or build step.**
+MIRA Quest is a static HTML/CSS/JavaScript browser game. It requires no package installation, build command or backend.
 
-All files in this folder are the project root. You should see `index.html`, `styles.css`, `src/`, `assets/`, and `vercel.json` together.
+## Vercel
 
-## Vercel settings
+Deploy the **root of this extracted ZIP** with these settings:
 
-- Framework Preset: **Other** (not Vite)
-- Build Command: **empty** (disable Build Command override or explicitly leave it empty)
-- Output Directory: **.** (project root)
-- Install Command: **empty**
-- Root Directory: the directory containing `index.html` (for this ZIP: the root of the extracted folder)
+- Framework Preset: **Other**
+- Build Command: empty
+- Install Command: empty
+- Output Directory: `.`
+- Root Directory: the folder containing `index.html`
 
-The included `vercel.json` explicitly sets these values for this deployment.
+The included `vercel.json` uses the static project configuration. Upload the complete folder, not just `index.html`: the page loads `game-next.css`, `src/story.js`, `src/game-next.js`, and the relative `assets/` tree.
 
-If you have already created a Vercel project configured for Vite, make sure you upload/deploy this **new ZIP**, rather than redeploying the old one. In Project Settings > Build and Deployment, change Framework Preset to Other; remove the old `vite build` command if it persists. Then redeploy.
+## Local play
 
-The game uses relative asset URLs, so all `assets/` files must be uploaded alongside `index.html`.
+Run `python3 -m http.server 8000` from the project root and open <http://localhost:8000>. Serving the folder over HTTP is recommended over `file://`, because the game uses relative photo, audio and video assets.
+
+For deployment context and QA notes, see `README.md`; for image credits and sources, see `CREDITS.md`.

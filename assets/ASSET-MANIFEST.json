@@ -1,0 +1,582 @@
+{
+  "project": "MIRA QUEST",
+  "edition": "Opportunity + Eagle",
+  "images_from_user_archive": 43,
+  "records": [
+    {
+      "path": "assets/ASSET-INDEX.md",
+      "bytes": 3781,
+      "category": "other"
+    },
+    {
+      "path": "assets/art/eagle/g36.png",
+      "bytes": 2351764,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/eagle/g37.png",
+      "bytes": 815192,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/eagle/g38.png",
+      "bytes": 1422899,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/eagle/g51.png",
+      "bytes": 1242817,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/eagle/g52.png",
+      "bytes": 2135064,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/eagle/g53.png",
+      "bytes": 1064290,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/eagle/g56.png",
+      "bytes": 1604620,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/intro/g04.png",
+      "bytes": 813091,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/intro/g07.png",
+      "bytes": 604665,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/opportunity/g24.png",
+      "bytes": 822911,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/opportunity/g25.png",
+      "bytes": 349996,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/opportunity/g28.png",
+      "bytes": 756916,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/opportunity/g34.png",
+      "bytes": 735463,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/opportunity/g39.png",
+      "bytes": 2398472,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/opportunity/g41.png",
+      "bytes": 2208958,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/opportunity/g42.png",
+      "bytes": 1623761,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/selection/g11.png",
+      "bytes": 660172,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/signals/g14.png",
+      "bytes": 894598,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/title/g01.png",
+      "bytes": 633419,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/title/g03.png",
+      "bytes": 730698,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/travel/g15.png",
+      "bytes": 978227,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/travel/g17.png",
+      "bytes": 812374,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/art/travel/g18.png",
+      "bytes": 760056,
+      "category": "cinematic-art"
+    },
+    {
+      "path": "assets/audio/dialogue.mp3",
+      "bytes": 15932,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/equipment.mp3",
+      "bytes": 65280,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/lunar-ascent.mp3",
+      "bytes": 57310,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/opening.mp3",
+      "bytes": 145499,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/riser.mp3",
+      "bytes": 118332,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/save.mp3",
+      "bytes": 18022,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/scan.mp3",
+      "bytes": 94926,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/signal.mp3",
+      "bytes": 87821,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/symphonies-planets.mp4",
+      "bytes": 1281295,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/travel.mp3",
+      "bytes": 666092,
+      "category": "audio"
+    },
+    {
+      "path": "assets/audio/wind.mp3",
+      "bytes": 228673,
+      "category": "audio"
+    },
+    {
+      "path": "assets/photos/apollo-ascent.jpg",
+      "bytes": 61331,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-cutaway.webp",
+      "bytes": 40920,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-equipment.jpg",
+      "bytes": 246832,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-footpad.jpg",
+      "bytes": 602502,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-historical.jpg",
+      "bytes": 297730,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-lro.jpg",
+      "bytes": 54928,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-lunar-orbit.jpg",
+      "bytes": 99691,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-original.jpg",
+      "bytes": 33305,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-panorama.webp",
+      "bytes": 91002,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-retroreflector.jpg",
+      "bytes": 483870,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-seismometer.jpg",
+      "bytes": 74556,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/apollo-technical.png",
+      "bytes": 93995,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/berries-closeup.jpg",
+      "bytes": 343369,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/berries.jpg",
+      "bytes": 80255,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/craters-map.png",
+      "bytes": 370121,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/driving-record.webp",
+      "bytes": 320308,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/eagle-crater-lionking.webp",
+      "bytes": 828374,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/extra-opportunity.webp",
+      "bytes": 155116,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/first-panorama.jpg",
+      "bytes": 29387,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/gypsum-vein.png",
+      "bytes": 564071,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/mars-disc.jpg",
+      "bytes": 1032950,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/mars-texture.jpg",
+      "bytes": 29068,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/mer-statistics.webp",
+      "bytes": 291540,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/model-reference.jpg",
+      "bytes": 11964,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/moon-disc.jpg",
+      "bytes": 281380,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/opp-instruments.webp",
+      "bytes": 206940,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/panorama-falsecolor.jpg",
+      "bytes": 7461,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/panorama-final.webp",
+      "bytes": 25754,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/panorama-legacy.webp",
+      "bytes": 55104,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/self-portrait-2004.jpg",
+      "bytes": 29747,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/self-portrait-2014.jpg",
+      "bytes": 252842,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/shadow.jpg",
+      "bytes": 29703,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/solar-cleaning.png",
+      "bytes": 867331,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/tracks.jpg",
+      "bytes": 147823,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/traverse-extra.jpg",
+      "bytes": 27643,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/traverse-map.jpg",
+      "bytes": 49934,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/photos/victoria.jpg",
+      "bytes": 489951,
+      "category": "mission-image"
+    },
+    {
+      "path": "assets/source-originals/Apollo 11 Armstrong lunar surface panorama AS11-40-5930 to AS11-40-5941.avif",
+      "bytes": 73013,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/Apollo 11 Eagle Lunar Module AS11-40-5927 photograph.jpeg",
+      "bytes": 26644,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/Apollo 11 Lunar Module LM-5 structures technical diagram.png",
+      "bytes": 38447,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/Apollo 11 Lunar Module from nasa dot gov.jpg",
+      "bytes": 255364,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/Craters and the Story They Tell .png",
+      "bytes": 64593,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G36 ╬ô├ç├╢ Eagle selection portrait.png",
+      "bytes": 875084,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G37 ╬ô├ç├╢ Distant Moon approach.png",
+      "bytes": 535938,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G38 ╬ô├ç├╢ Close Moon approach.png",
+      "bytes": 677837,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G39 ╬ô├ç├╢ Interactive rover inspection.png",
+      "bytes": 919554,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G41 ╬ô├ç├╢ Mars navigation challenge.png",
+      "bytes": 933076,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G42 ╬ô├ç├╢ Opportunity's final dust storm.png",
+      "bytes": 888515,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G51 ╬ô├ç├╢ Eagle descent stage isolated.png",
+      "bytes": 402935,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G52 ╬ô├ç├╢ Eagle first encounter and dialogue background.png",
+      "bytes": 787472,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G53 ╬ô├ç├╢ Eagle two-stage interactive model.png",
+      "bytes": 338260,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G56 ╬ô├ç├╢ Eagle ascent-stage departure.png",
+      "bytes": 603533,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G56 ╬ô├ç├╢ Eagle ascent-stage departure.webp",
+      "bytes": 588426,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/G56 ╬ô├ç├╢ Eagle ascent-stage departure2.webp",
+      "bytes": 739270,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/JPL_DrivingDistanceRecord_GraphicRecreation_August2026_v3.png",
+      "bytes": 599613,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Apollo 11 Moon seen during approach - lunar orbit.jpg",
+      "bytes": 84293,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Apollo 11 ascent stage.webp",
+      "bytes": 13872,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Apollo 11 laser ranging retroreflector photograph.jpg",
+      "bytes": 431440,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Apollo 11 lunar landing site LRO image Eagle descent stage.jpeg",
+      "bytes": 38145,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Apollo 11 lunar surface science equipment bay photograph.jpg",
+      "bytes": 209385,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Apollo 11 passive seismic experiment EASEP photograph.jpeg",
+      "bytes": 51440,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Apollo Lunar Module ascent stage and descent stage labeled cutaway.webp",
+      "bytes": 35664,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Mars full-disc photograph, natural color.jpg",
+      "bytes": 3638446,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Moon full-disc photograph, natural color.jpeg",
+      "bytes": 285834,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Opportunity Microscopic Imager hematite blueberries close up.jpg",
+      "bytes": 278239,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Opportunity Pancam Microscopic Imager RAT APXS MoΓòá├¬ssbauer instruments.webp",
+      "bytes": 184244,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/NASA Spirit Opportunity Mars Exploration Rover 3D model.jpeg",
+      "bytes": 11469,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/PIA05199 Opportunity first Eagle Crater panorama.png",
+      "bytes": 24627,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/PIA05634 Opportunity Berry Bowl.jpg",
+      "bytes": 65987,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/PIA07310 Opportunity Looking Back Across the Plains.jpg",
+      "bytes": 120953,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/PIA09104 Opportunity Victoria Crater Cape Verde panorama.jpg",
+      "bytes": 2831078,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/PIA17759 and PIA18079 Opportunity rover solar panel self portraits.png",
+      "bytes": 150607,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/PIA22909 Opportunity Legacy Pan True Color full resolution.jpg",
+      "bytes": 24818,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/PIA23178 Opportunity Final Traverse Map.png",
+      "bytes": 39586,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/Slam-Dunk Signs of Flowing Water .png",
+      "bytes": 83039,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/View of footpad of Apollo 11 Lunar Module as it rested on lunar surface from nasa dot gov.jpg",
+      "bytes": 495588,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/https--science.nasa.gov-photojournal-opportunity-captures-lion-king-panorama.jpeg",
+      "bytes": 17129,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/mer-bythenumbers-infographic-feb2019.webp",
+      "bytes": 436088,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/source-originals/sol058-to-060-lion-king-pia05755.webp",
+      "bytes": 739270,
+      "category": "source-original"
+    },
+    {
+      "path": "assets/video/mars-sandstorm.mp4",
+      "bytes": 2719225,
+      "category": "video"
+    }
+  ]
+}

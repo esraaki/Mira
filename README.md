@@ -1,64 +1,50 @@
-# MIRA QUEST — Opportunity Chapter
+# MIRA QUEST · Opportunity & Apollo 11 Eagle
 
-A fully playable browser-based cinematic visual-novel / historical discovery experience, built from the assets supplied by the project owner.
+**Their missions ended. Their stories didn’t.** A cinematic, interactive NASA-mission story for curious young space enthusiasts. Polished November 14, 2026 from the supplied MIRA Quest archive; its chapter sequence, identity, story, interactions and original assets are retained.
 
-## Launch
+## Run or deploy
 
-**Quick start:** Unzip the archive and double-click `index.html` in a modern browser. The game is built as plain HTML, CSS, and JavaScript, so no build process or dependencies are required. If your browser restricts locally loaded media, start a local HTTP server instead:
-
-With Python 3 installed:
+This is a static, build-free HTML/CSS/JavaScript game. From the unzipped project root, run:
 
 ```bash
-cd mira-quest-game
-python3 -m http.server 8080
+python3 -m http.server 8000
 ```
 
-Then open http://localhost:8080. On a Mac, you can use Terminal and the same commands. No npm install, build, paid API, login, or internet connection is needed to play (Google Fonts optionally load online; local fallback fonts work offline).
+Then open <http://localhost:8000>. You may also deploy the unzipped root as a static site (for Vercel, choose **Other**, no build command, and `.` as the output directory). Use a local/static HTTP server rather than opening `index.html` via `file://` so image, audio and video paths work consistently. No backend, package install, or build step is required.
 
-## Features and progress
+## Playthrough
 
-- Cinematic title screen using G01
-- Multi-beat, click-to-advance grand opening
-- One-point signal / mysterious transmission
-- Three glowing points, with Opportunity as the fully playable mission (other signal cards clearly show that their chapters are not implemented)
-- Interactive spacecraft-travel simulation, straight progress telemetry, and Mars appearing after 75% progress
-- Realistic Mars environmental scan and accurate location labels
-- Drag/swipe/keyboard/arrow navigation to discover Opportunity (a composite environment from the supplied G28 artwork)
-- First conversation, unknown-identity reveal, branching choices and shared storyline
-- Animated 90 vs 5,111-sol comparison
-- Actual NASA route map with selectable milestones
-- Actual Mars geology photograph, zoom and interactive observations
-- Persistent Mission Gallery with actual NASA photographs and image credits
-- Final mission timeline including historical ending, and return to signal selection
-- Audio controls, volume settings, reduced-motion option, touch support, optional fullscreen, local save state
+The original experience remains **Prologue → Opportunity → Eagle → Ending**. A name can be chosen for the astronaut/explorer. Both stories retain branching responses, cinematic travel and arrival, interactive memory scenes and mini-games, NASA photo unlocks, sound effects, and the finale.
 
-## Important visual limitation
+- **Opportunity:** Follow the Mars signal, meet the rover at Perseverance Valley, and learn about its 90-sol plan, 5,111-sol mission, early crater geology, hematite-rich spherules, instruments, route-planning constraints, the Homestake vein, and the 2018 dust storm. The storm presentation remains a disclosed simulation; Opportunity’s internal fate after last contact is not invented as fact.
+- **Eagle:** Find Apollo 11’s lunar-module descent stage at Tranquility Base. Explore the LM’s separate descent/ascent stages, the challenge of landing without an atmosphere, Apollo 11 surface science, the ascent-stage departure, and why the descent stage was deliberately left on the Moon.
 
-The original PIA22909 pano supplied in the ZIP is only a small web preview (699 × 302). To avoid giving the impression of a detailed 360° NASA photographic view, this version uses a draggable *cinematic composite* built from the supplied generated Mars scene. This is real pointer/touch-controlled horizontal panning, but it is **not** a fully spherical 360° image or physically accurate 3D navigation. A higher-resolution stitched NASA panorama can replace the scene when acquired; full exterior rover portrayal would still require a labeled reconstruction.
+Collected photographs, completed-chapter progress, the explorer name and selected sound/motion preferences are saved in this browser. Progress is local to the current browser profile; no account or cloud save is involved.
 
-## Structure
+## Sound
 
-- `index.html` — app entry
-- `styles.css` — layouts, cinematic styling, responsive interfaces and animation
-- `src/game.js` — game scenes, interaction state, data and missions
-- `assets/art/title/` — title-screen artwork (G01, G03)
-- `assets/art/intro/` — starry cinematic opening (G04, G07)
-- `assets/art/signals/` — subtle signal background (G14)
-- `assets/art/selection/` — Opportunity selection portrait (G11)
-- `assets/art/travel/` — Mars approach and star-travel images (G15, G17, G18, G21)
-- `assets/art/opportunity/` — Opportunity rover and Mars composites (G24, G25, G28, G34)
-- `assets/photos/` — original downloaded mission imagery with simplified descriptive filenames
-- `assets/audio/` — audio supplied by the project owner
-- `CREDITS.md` — provenance, publication review notes
+Supplied audio remains in the project. Browsers generally require a user gesture before playing sound, so audio begins after the player starts the journey. Use the top-right settings control to mute or adjust it. The storm video is a simulation, not actual Opportunity footage or a recording of Martian wind. Audio playback and source licensing should be checked on the intended submission hardware before release.
 
-## Event disclosure
+## Sources and evidence
 
-This is an AI-assisted creative prototype. The images supplied as generated art must be visibly labeled as synthetic for the event's reported rules. The application adds on-screen source/reconstruction notes for the relevant scenes. Verify organizer requirements and any individual audio licenses before public release.
+The collected-photo lightbox displays an image credit and direct NASA/NASA-hosted source link. The accompanying [`CREDITS.md`](CREDITS.md) contains the per-image record IDs, attribution, mission fact references, and production/media disclosures. Twelve gallery items were matched to official NASA records or the exact NASA science reference; the supplied retroreflector scene is preserved and visibly marked as lacking a confirmed frame-level citation. The Endurance route stop explicitly identifies its genuine Eagle Crater supporting image rather than claiming it is an Endurance photograph.
 
-## Production notes
+Narration is fictionalized personification, not a real transmission. Generated/AI-assisted cinematic backgrounds and engineering reconstructions are distinguished from NASA photographs. Scientific dialogue is based on NASA mission records and uses uncertainty where the evidence is uncertain.
 
-The exploration environment, visual effects and gallery photographs are replaceable without rebuilding the story system. For use in a real competition submission, validate each scientific image's caption against the original NASA page, replace low-resolution downloaded previews, review AI watermark handling, and test on actual phones/tablets. This is a playable Opportunity experience, not a completed Eagle/Ingenuity game.
+## Project files
 
-## Version 2 improvements
+- `index.html` — deployable entry point.
+- `src/story.js` — dialogue and science/history beats.
+- `src/game-next.js` — scenes, interactions, saves, sound, photo archive and progression.
+- `game-next.css` — cinematic responsive interface and accessible motion/input styling.
+- `assets/art/` — supplied cinematic art and cutouts.
+- `assets/photos/` — supplied NASA photographs, technical illustrations and references.
+- `assets/audio/` and `assets/video/mars-sandstorm.mp4` — supplied sound and storm simulation.
+- `assets/source-originals/` — supplied provenance files; not required at runtime.
+- `assets/ASSET-MANIFEST.json` — file inventory. All 115 listed asset paths and byte counts were checked against the packaged files.
 
-See `CHANGELOG-v2.md` for the November 11 playtest fixes: manual prologue navigation, player name entry, non-black re-rendering, dialogue continuity and avatars, centered CTA controls, improved audio behavior, local NASA route-map lightbox, and personalized goodbye.
+## Validation and remaining release checks
+
+Both complete chapters, their endings, the collectible archive, branching dialogue and the final epilogue were played through in the browser. The updated archive modal/settings focus and Escape behavior, saved completed-chapter/gallery progress, JavaScript syntax and all manifest paths were also checked. The game remains client-side and the provided files load from a static local server.
+
+The browser test was not a full screen-reader audit or device-matrix test: verify mobile behavior on target phones/tablets, test audio on the submission device, and confirm event rules, supplied-media licenses and AI-disclosure requirements before public release. See [`CREDITS.md`](CREDITS.md) for the remaining photo-attribution caveat.
